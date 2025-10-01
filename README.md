@@ -45,7 +45,7 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 ### Core Technologies
 
-* Python 3.8: Primary development language
+* **Python 3.8**: Primary development language
 
 * PostgreSQL: Database management
 
