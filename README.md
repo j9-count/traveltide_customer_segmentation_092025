@@ -40,7 +40,7 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 *Booking types: Flights, hotels, and combined packages
 
 
-****🛠 Technical Architecture****
+##🛠 Technical Architecture
 
 
 ***Core Technologies**
