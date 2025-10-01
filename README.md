@@ -40,12 +40,18 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 ## 🛠 Technical Architecture
 
 
-**+Core Technologies**
-*+Python 3.8+**: Primary development language
-**+PostgreSQL**: Database management
-**+Scikit-learn**: Machine learning and clustering
-**+Pandas/NumPy**: Data manipulation and analysis
-**+Plotly**: Interactive visualizations
-**+Matplotlib/Seaborn**: Statistical plotting
+### Core Technologies
+
+*** Python 3.8**: Primary development language
+
+*** PostgreSQL**: Database management
+
+*** Scikit-learn**: Machine learning and clustering
+
+*** Pandas/NumPy**: Data manipulation and analysis
+
+*** Plotly**: Interactive visualizations
+
+*** Matplotlib/Seaborn**: Statistical plotting
 
 
