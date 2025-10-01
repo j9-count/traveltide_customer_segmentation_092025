@@ -20,13 +20,13 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 ### Tables Overview
 
-**users** (Demographics): User profiles, demographics, and account information
+* **users** (Demographics): User profiles, demographics, and account information
 
-**sessions** (Behavioral): Browsing sessions, bookings, and engagement metrics
+* **sessions** (Behavioral): Browsing sessions, bookings, and engagement metrics
 
-**flights** (Transactional): Flight booking details and spending patterns
+* **flights** (Transactional): Flight booking details and spending patterns
 
-**hotels** (Transactional): Hotel booking details and preferences
+* **hotels** (Transactional): Hotel booking details and preferences
 
 
 ### Key Metrics
@@ -47,14 +47,14 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 * **Python 3.8**: Primary development language
 
-* PostgreSQL: Database management
+* **PostgreSQL**: Database management
 
-* Scikit-learn: Machine learning and clustering
+* **Scikit-learn**: Machine learning and clustering
 
-* Pandas/NumPy: Data manipulation and analysis
+* **Pandas/NumPy**: Data manipulation and analysis
 
-* Plotly: Interactive visualizations
+* **Plotly**: Interactive visualizations
 
-* Matplotlib/Seaborn: Statistical plotting
+* **Matplotlib/Seaborn**: Statistical plotting
 
 
