@@ -1,6 +1,7 @@
 # traveltide_customer_segmentation_092025
 
 **TravelTide Customer Segmentation & Rewards Program**
+
 **🎯  Project Overview**
 This project implements a comprehensive customer segmentation analysis for TravelTide, an e-booking platform in the online travel industry. The goal is to design and execute a personalized rewards program that increases customer retention and encourages reward program sign-ups.
 
