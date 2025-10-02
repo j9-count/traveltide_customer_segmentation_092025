@@ -164,13 +164,13 @@ traveltide_segmentation/
 
 #### Identified Segments
 
-**1. High-Value Frequent Travelers ** (25%)
+**1. High-Value Frequent Travelers  (25%)**
 
-   * Premium customers with high booking frequency
+   *  Premium customers with high booking frequency
 
-   * Average spend: $2,500+ per year
+   *  Average spend: $2,500+ per year
 
-   * Prefer full-service options with convenience features
+   *  Prefer full-service options with convenience features
 
 Budget Frequent Travelers (35%)
 
