@@ -346,30 +346,30 @@ Git
 `bash`
 
 *`#Clone repository`* 
-
+<br>
 git clone https://github.com/j9-count/traveltide_customer_segmentation_092025/blob/main/README.md
-
+<br>
 cd customer-segmentation
 
 *`#Create virtual environment`* 
-
+<br>
 python -m venv venv
-
+<br>
  source venv/bin/activate # On Windows: venv\Scripts\activate
 
 
-*# `Install dependencies`* pip install -r requirements.txt
+*`#Install dependencies`* pip install -r requirements.txt
 
 
-*# `Set up environment variables`* 
-
+*`#Set up environment variables`* 
+<br>
 cp config/.env.example config/.env 
+<br>
+*`#Edit config/.env with your database credentials`*
 
-*# `Edit config/.env with your database credentials`*
 
-
-*# Run the analysis* 
-
+*`#Run the analysis`* 
+<br>
 python src/segmentation_engine.py
 
 
@@ -378,12 +378,12 @@ python src/segmentation_engine.py
 
 ### Environment Variables
 
-env
-
+`env`
+<br>
 DATABASE_URL=postgresql+psycopg2://username:password@host:port/database
-
+<br>
 COHORT_START_DATE=2023-01-01
-
+<br>
 MIN_SESSIONS=7
 
 
@@ -395,39 +395,43 @@ MIN_SESSIONS=7
 
 ### Basic Segmentation Analysis
 python
-
+<br>
 from src.segmentation_engine import TravelTideSegmentation
 
-*# Initialize engine*
-
+*`#Initialize engine`*
+<br>
 segmentation = TravelTideSegmentation(DATABASE_URL)
 
 
-*# Run complete analysis*
-
+*`#Run complete analysis`*
+<br>
 results = segmentation.run_full_analysis()
 
 
-*# Access results*
-
+*`#Access results`*
+<br>
 segments = results['segments']
-
+<br>
 rewards = results['reward_assignments']
 
 
 ### Custom Segment Analysis
 
 python
-
-*# Load specific user cohort*
-
+<br>
+*`#Load specific user cohort`*
+<br>
 custom_cohort = segmentation.get_cohort(
+   <br>
     start_date='2023-06-01',
+    <br>
     min_sessions=10,
+    <br>
     countries=['US', 'CA', 'UK']
 )
 
-*# Apply segmentation*
+*`#Apply segmentation`*
+<br>
 custom_results = segmentation.segment_customers(custom_cohort)
 
 
