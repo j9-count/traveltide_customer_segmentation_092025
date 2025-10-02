@@ -13,7 +13,7 @@ This project implements a comprehensive customer segmentation analysis for Trave
 
 **Outcome**: 4 customer segments with tailored reward strategies projecting 296% ROI
 
-
+---
 
 ## 📊 Dataset Description
 
@@ -37,7 +37,7 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 * Result: 5,722 eligible customers analyzed  
 
-
+---
 
 ## 🛠 Technical Architecture
 
@@ -57,7 +57,7 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 * **Matplotlib/Seaborn**: Statistical plotting
 
-
+---
 
 ## 🚀 Quick Start
 
@@ -101,13 +101,10 @@ Cell 16: Save results and display summary
 Cell 17-18: Generate presentation charts (optional)
 
 
-**Download Results:**
-
-* customer_rewards_assignment.csv - Main deliverable
-
-* segment_summary.csv - Segment statistics
-  
-* Chart PNG files for presentation
+3. **Download Results:**
+   - `customer_rewards_assignment.csv` - Main deliverable
+   - `segment_summary.csv` - Segment statistics
+   - Chart PNG files for presentation
 
 
 ## Database Configuration
@@ -117,10 +114,12 @@ The database connection is configured in Cell 5:
 DATABASE_URL = "postgresql+psycopg2://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide?sslmode=require"
 COHORT_START_DATE = '2023-01-01'
 MIN_SESSIONS = 7 
+```
+
+---
 
 
 
-``` 
 ## 📂 Project Structure: 
 
 ```
@@ -136,6 +135,7 @@ TravelTide_Segmentation_Project/
 └── presentation_slides.md                  # ✅ Slide content (5-8 min talk)
 ```
 
+---
 
 ## 🔬 Methodology
 
@@ -192,6 +192,7 @@ TravelTide_Segmentation_Project/
 * Business interpretability
 #### Best Model: K-Means with 4 clusters (Silhouette Score: 0.72)
 
+---
 
 
 ## 📈 Key Results
@@ -414,7 +415,7 @@ The core analysis is performed by the `TravelTideSegmentation` class defined in 
 - Simplified booking process
 - Re-engagement campaigns
 
----
+
 
 
 ---
