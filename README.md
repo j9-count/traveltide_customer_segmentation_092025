@@ -333,8 +333,10 @@ traveltide_segmentation/
 ### Prerequisites
 bash
 
-Python 3.8+ 
+Python 3.8+
+
 PostgreSQL client 
+
 Git
 
 
@@ -359,7 +361,6 @@ cp config/.env.example config/.env
 
 *# Run the analysis* 
 python src/segmentation_engine.py
-
 
 
 
