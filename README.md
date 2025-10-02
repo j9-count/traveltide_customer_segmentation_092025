@@ -347,7 +347,7 @@ Git
 
 *# `Clone repository`* 
 
-git clone https://github.com/traveltide/customer-segmentation.git 
+git clone https://github.com/j9-count/traveltide_customer_segmentation_092025/blob/main/README.md
 
 cd customer-segmentation
 
