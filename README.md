@@ -117,11 +117,7 @@ The database connection is configured in Cell 5:
 ```python
 DATABASE_URL = "postgresql+psycopg2://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide?sslmode=require"
 COHORT_START_DATE = '2023-01-01'
-MIN_SESSIONS = 7
-``
-
-
-
+MIN_SESSIONS = 7 ```
 
 
 
