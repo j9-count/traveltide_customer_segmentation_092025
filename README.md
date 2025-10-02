@@ -140,13 +140,13 @@ traveltide_segmentation/
 
 #### Algorithms Tested
 
-* **1. K-Means Clustering**: Traditional centroid-based clustering
+ **1. K-Means Clustering**: Traditional centroid-based clustering
 
-* **2. Gaussian Mixture Models**: Probabilistic clustering with soft assignments
+ **2. Gaussian Mixture Models**: Probabilistic clustering with soft assignments
 
-* **3. Hierarchical Clustering**: Agglomerative clustering for natural groupings
+ **3. Hierarchical Clustering**: Agglomerative clustering for natural groupings
 
-* **4. DBSCAN**: Density-based clustering for outlier detection
+ **4. DBSCAN**: Density-based clustering for outlier detection
 
 
 #### Evaluation Metrics
@@ -164,7 +164,7 @@ traveltide_segmentation/
 
 #### Identified Segments
 
-*  **1. High-Value Frequent Travelers(**25%)
+**1. High-Value Frequent Travelers ** (25%)
 
    * Premium customers with high booking frequency
 
