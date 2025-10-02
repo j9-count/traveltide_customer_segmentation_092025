@@ -197,7 +197,24 @@ traveltide_segmentation/
  * Require motivation for increased engagement
 
 
+## 🎁 Personalized Rewards Program
 
+### Reward Categories
+
+**1. Free Hotel Meal**: Complimentary breakfast or dining credit
+
+**2. Free Checked Bag:** Waived baggage fees for flights
+
+**3. No Cancellation Fees**: Flexible booking modifications
+
+**4. Exclusive Discounts**: Member-only pricing and flash sales
+
+**5. Free Hotel Night**: Complimentary night with flight bookings
+
+
+### Segment-Specific Assignments
+
+#### High-Value Frequent Travellers
 
 
 
