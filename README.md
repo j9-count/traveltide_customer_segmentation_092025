@@ -423,11 +423,11 @@ python
 <br>
 custom_cohort = segmentation.get_cohort(
    <br>
-    start_date='2023-06-01',
+     start_date='2023-01-01',
     <br>
-    min_sessions=10,
+     min_sessions=7,
     <br>
-    countries=['US', 'CA', 'UK']
+     countries=['US', 'CA', 'UK']
 )
 
 *`#Apply segmentation`*
