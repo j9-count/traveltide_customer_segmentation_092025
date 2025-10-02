@@ -76,7 +76,7 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 * Upload TravelTide_Segmentation.ipynb with shared link:
   
-### Run All Cells Sequentially:
+### 2. Run All Cells Sequentially:
 
 Cell 1-4: Import libraries
 
