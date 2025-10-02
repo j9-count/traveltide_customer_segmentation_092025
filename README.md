@@ -119,8 +119,9 @@ COHORT_START_DATE = '2023-01-01'
 MIN_SESSIONS = 7 
 
 
+
 ``` 
-**📂 Project Structure: **
+## 📂 Project Structure: 
 
 TravelTide_Segmentation_Project/
 ├── TravelTide_Segmentation.ipynb           # ✅ Main analysis notebook (Cells 1-18)
@@ -132,6 +133,7 @@ TravelTide_Segmentation_Project/
 ├── README.md                               # ✅ This documentation
 ├── executive_summary.md                    # ✅ Business summary
 └── presentation_slides.md                  # ✅ Slide content (5-8 min talk)
+
 
 
 ## 🔄 Methodology
