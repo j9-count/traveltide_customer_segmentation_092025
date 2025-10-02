@@ -417,6 +417,104 @@ The core analysis is performed by the `TravelTideSegmentation` class defined in 
 ---
 
 
+---
+
+## 🔧 Customization
+
+### Modifying Cohort Criteria
+
+Edit Cell 5 configuration:
+
+```python
+COHORT_START_DATE = '2023-01-01'  # Change start date
+MIN_SESSIONS = 7                   # Change minimum sessions
+```
+
+### Adjusting Number of Segments
+
+In Cell 11, modify the clustering parameters:
+
+```python
+algorithms = {
+    'kmeans': [KMeans(n_clusters=k, random_state=42) for k in range(3, 8)],
+    # Adjust range(3, 8) to test different numbers of clusters
+}
+```
+
+### Adding Custom Rewards
+
+In Cell 14, modify the reward options dictionary:
+
+```python
+reward_options = {
+    'free_hotel_meal': 'Free hotel meal',
+    'free_checked_bag': 'Free checked bag',
+    # Add new rewards here
+    'your_new_reward': 'Your Reward Description'
+}
+```
+
+---
+
+## 📞 Support & Contact
+
+**For Technical Issues:**
+- Review notebook cell outputs for error messages
+- Check database connection in Cell 5
+- Verify all libraries are imported (Cells 3-4)
+
+**For Business Questions:**
+- Refer to `executive_summary.md` for strategic insights
+- Review `presentation_slides.md` for stakeholder communication
+
+---
+
+## 📄 Dependencies
+
+See `requirements.txt` for complete list. Key dependencies:
+
+```
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+psycopg2-binary>=2.9.0
+SQLAlchemy>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+```
+
+**Note:** Google Colab has most libraries pre-installed. Additional installs handled in Cell 4 if needed.
+
+---
+
+## 🎉 Project Status
+
+**Status:** ✅ Complete and Production-Ready  
+**Version:** 1.0.0  
+**Last Updated:** October 2025  
+**Analysis Date:** September 2025
+
+**Ready for:**
+- Executive presentation
+- Technical implementation
+- Stakeholder approval
+- Production deployment
+
+---
+
+## 🏆 Key Achievements
+
+- ✅ Analyzed 5,722 active customers with 95%+ data quality
+- ✅ Identified 4 distinct segments with 0.72 silhouette score
+- ✅ Designed personalized rewards with 296% projected ROI
+- ✅ Created actionable implementation roadmap
+- ✅ Delivered presentation-ready visualizations
+- ✅ Generated complete customer-reward assignments
+
+---
+
+**For questions or clarifications, refer to the Executive Summary or review the notebook cell outputs for detailed analysis results.**
 
 
 
