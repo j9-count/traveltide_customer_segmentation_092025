@@ -343,7 +343,7 @@ Git
 
 ### Installation Steps
 
-bash
+<span style="color:lightgrey">bash</span>v
 
 *# Clone repository* 
 
