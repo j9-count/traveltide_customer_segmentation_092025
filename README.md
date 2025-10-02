@@ -332,12 +332,12 @@ traveltide_segmentation/
 
 ### Prerequisites
 bash
+<br>
+Python 3.8+ <br>
 
-Python 3.8+
+PostgreSQL client <br>
 
-PostgreSQL client 
-
-Git
+Git <br>
 
 
 
@@ -347,7 +347,7 @@ bash
 
 *# Clone repository* 
 
-git clone https://github.com/traveltide/customer-segmentation.git 
+git <span style="color:blue">This text is blue</span>  clone https://github.com/traveltide/customer-segmentation.git 
 
 cd customer-segmentation
 
