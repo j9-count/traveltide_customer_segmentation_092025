@@ -113,16 +113,14 @@ Cell 17-18: Generate presentation charts (optional)
 ## Database Configuration
 
 The database connection is configured in Cell 5:
-
 ```python
 DATABASE_URL = "postgresql+psycopg2://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide?sslmode=require"
 COHORT_START_DATE = '2023-01-01'
-MIN_SESSIONS = 7 ```
+MIN_SESSIONS = 7 
 
 
-
-`` **📂 Project Structure: **
-
+``` 
+**📂 Project Structure: **
 
 TravelTide_Segmentation_Project/
 ├── TravelTide_Segmentation.ipynb           # ✅ Main analysis notebook (Cells 1-18)
@@ -134,7 +132,7 @@ TravelTide_Segmentation_Project/
 ├── README.md                               # ✅ This documentation
 ├── executive_summary.md                    # ✅ Business summary
 └── presentation_slides.md                  # ✅ Slide content (5-8 min talk)
-```
+
 
 ## 🔄 Methodology
 
