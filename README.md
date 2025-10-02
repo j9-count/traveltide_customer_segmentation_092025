@@ -421,7 +421,7 @@ python
 <br>
 *`#Load specific user cohort`*
 <br>
-custom_cohort = segmentation.get_cohort(
+```custom_cohort = segmentation.get_cohort(
    <br>
       start_date='2023-01-01',
     <br>
