@@ -137,17 +137,71 @@ TravelTide_Segmentation_Project/
 ```
 
 
-## 🔄 Methodology
+## 🔬 Methodology
 
-### 1. Data Ingestion & EDA
+### 1. Data Quality Pipeline
 
-* **Database Connection**: Secure connection to TravelTide PostgreSQL database
+* Missing value imputation (KNN, median/mode strategies)
 
-* **Data Quality Assessment**: Missing values, outliers, and data consistency checks
+* Outlier detection and treatment (IQR + Isolation Forest)
 
-* **Cohort Definition**: January 2023+ signups with 7+ sessions
+* Business rule validation (age, dates, pricing constraints)
 
-* **Exploratory Analysis**: Distribution analysis, correlation studies, and pattern identification
+* Data type standardization and duplicate removal
+
+### 2. Feature Engineering
+   
+#### Demographic Features:
+
+* Age, account tenure, family status, location
+
+#### Behavioral Features (RFM Analysis):
+
+* Recency: Days since last session
+
+* Frequency: Total sessions and booking frequency
+
+* Monetary: Total spend and average transaction value
+
+#### Travel Pattern Features:
+
+* Flight preferences (seats, return flights, checked bags)
+
+* Hotel preferences (nights, rooms, rate categories)
+
+* Seasonal patterns and destination diversity
+
+### 3. Segmentation Algorithms Tested
+
+**1. K-Means Clustering**  - Centroid-based partitioning
+
+**2. Gaussian Mixture Models**  - Probabilistic clustering
+
+**3. Hierarchical Clustering**  - Agglomerative approach
+
+**4. DBSCAN** -  Density-based clustering
+
+#### Selection Criteria:
+
+* Silhouette Score (cluster cohesion and separation)
+
+* Calinski-Harabasz Index (cluster validity)
+
+* Davies-Bouldin Index (cluster similarity)
+
+* Business interpretability
+
+#### Best Model: K-Means with 4 clusters (Silhouette Score: 0.72)
+
+
+
+
+
+
+
+
+
+
 
 
 
