@@ -58,30 +58,31 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 * **Matplotlib/Seaborn**: Statistical plotting
 
 
-# 📂 Project Structure: 
+## 📂 Project Structure: 
 
 traveltide_segmentation/
-├── segmentation_engine.py               # ✅ Complete analysis pipeline
-├── data_quality.py                      # ✅ Enhanced data quality & preprocessing
-├── utils.py                             # ✅ Helper functions & utilities
-├── run_analysis.py                      # ✅ Main execution script
+├── segmentation_engine.py                 # ✅ Complete analysis pipeline
+├── data_quality.py                               # ✅ Enhanced data quality & preprocessing
+├── utils.py                                            # ✅ Helper functions & utilities
+├── run_analysis.py                              # ✅ Main execution script
 ├── config/
-│   ├── database_config.py               # ✅ Database settings
-│   ├── model_config.py                  # ✅ ML parameters
-│   └── __init__.py                      # ✅ Module init
+│   ├── database_config.py                  # ✅ Database settings
+│   ├── model_config.py                      # ✅ ML parameters
+│   └── __init__.py                               # ✅ Module init
 ├── tests/
-│   ├── test_segmentation.py             # ✅ Unit tests
-│   ├── test_features.py                 # ✅ Feature tests
-│   ├── conftest.py                      # ✅ Test config
-│   └── __init__.py                      # ✅ Module init
-├── data/                                # 📁 Auto-generated outputs
+│   ├── test_segmentation.py               # ✅ Unit tests
+│   ├── test_features.py                       # ✅ Feature tests
+│   ├── conftest.py                              # ✅ Test config
+│   └── __init__.py                             # ✅ Module init
+├── data/                                             # 📁 Auto-generated outputs
 │   ├── customer_rewards_assignment.csv
 │   ├── segment_summary.csv
 │   └── analysis_results.json
 ├── docs/
-│   ├── README.md                        # ✅ This documentation
-│   ├── executive_summary.md             # ✅ Business summary
-│   └── presentation.pptx		             # ✅ Business presentation slides
-└── requirements.txt                     # ✅ Dependencies
+│   ├── README.md                       # ✅ This documentation
+│   ├── executive_summary.md        # ✅ Business summary
+│   └── presentation.pptx		 # ✅ Business presentation slides
+└── requirements.txt                         # ✅ Dependencies
+
 
 
