@@ -124,9 +124,9 @@ MIN_SESSIONS = 7
 
 
 
-## 📂 Project Structure: 
+`` **📂 Project Structure: **
 
-```
+
 TravelTide_Segmentation_Project/
 ├── TravelTide_Segmentation.ipynb           # ✅ Main analysis notebook (Cells 1-18)
 ├── customer_rewards_assignment.csv         # ✅ Output: Customer-reward mapping
