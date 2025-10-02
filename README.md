@@ -444,3 +444,34 @@ custom_cohort = segmentation.get_cohort(
 )
 
 
+
+
+
+
+
+
+# TravelTide Customer Segmentation & Rewards Program
+
+## 🎯 Project Overview
+
+This project implements a comprehensive customer segmentation analysis for TravelTide, an e-booking platform in the online travel industry. Using machine learning clustering algorithms, we identify distinct customer segments and design personalized rewards programs to increase retention and booking frequency.
+
+**Analysis Scope:** 5,722 active customers (January 2023 - September 2025)  
+**Methodology:** ML-powered segmentation with behavioral, demographic, and RFM analysis  
+**Outcome:** 4 customer segments with tailored reward strategies projecting 296% ROI
+
+---
+
+## 📊 Dataset Description
+
+The analysis uses TravelTide's PostgreSQL database with four main tables:
+
+- **users** (Demographics): 7,500+ user profiles with demographic and account information
+- **sessions** (Behavioral): 50,000+ booking sessions with engagement metrics
+- **flights** (Transactional): 15,000+ flight bookings with spending patterns
+- **hotels** (Transactional): 12,000+ hotel bookings with preference data
+
+**Cohort Criteria:**
+- Sign-up date: January 2023 onwards
+- Minimum activity: 7+ booking sessions
+- Result: 5,722 eligible customers analyzed
