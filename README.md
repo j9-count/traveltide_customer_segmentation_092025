@@ -212,9 +212,43 @@ traveltide_segmentation/
 **5. Free Hotel Night**: Complimentary night with flight bookings
 
 
+
 ### Segment-Specific Assignments
 
 #### High-Value Frequent Travellers
+
+**High-Value Frequent Travellers**
+
+* ✅ 1 night free hotel with flight
+  
+* ✅ Exclusive discounts
+  
+* ✅ No cancellation fees
+  
+**Budget Frequent Travellers**
+
+* ✅ Exclusive discounts
+
+* ✅ Free checked bag
+
+* ✅ No cancellation fees
+
+**High-Value Occasional Travellers**
+
+* ✅ Free hotel meal
+
+* ✅ 1 night free hotel with flight
+
+* ✅ Exclusive discounts
+
+**Budget Occasional Travellers**
+
+* ✅ Free hotel meal
+
+* ✅ Exclusive discounts
+
+* ✅ Free checked bag
+
 
 
 
