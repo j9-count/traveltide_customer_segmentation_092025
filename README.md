@@ -121,33 +121,22 @@ MIN_SESSIONS = 7
 
 
 
+
+
+
 ## 📂 Project Structure: 
 
 ```
-traveltide_segmentation/
-├── segmentation_engine.py        # ✅ Complete analysis pipeline
-├── data_quality.py               # ✅ Enhanced data quality & preprocessing
-├── utils.py                      # ✅ Helper functions & utilities
-├── run_analysis.py               # ✅ Main execution script
-├── config/
-│   ├── database_config.py        # ✅ Database settings
-│   ├── model_config.py           # ✅ ML parameters
-│   └── __init__.py               # ✅ Module init
-├── tests/
-│   ├── test_segmentation.py      # ✅ Unit tests
-│   ├── test_features.py          # ✅ Feature tests
-│   ├── conftest.py               # ✅ Test config
-│   └── __init__.py               # ✅ Module init
-├── data/                         # 📁 Auto-generated outputs
-│   ├── customer_rewards_assignment.csv
-│   ├── segment_summary.csv
-│   └── analysis_results.json
-├── docs/
-│   ├── README.md                 # ✅ This documentation
-│   ├── executive_summary.md      # ✅ Business summary
-│   └── presentation.pptx         # ✅ Business presentation slides
-└── requirements.txt              # ✅ Dependencies
-
+TravelTide_Segmentation_Project/
+├── TravelTide_Segmentation.ipynb           # ✅ Main analysis notebook (Cells 1-18)
+├── customer_rewards_assignment.csv         # ✅ Output: Customer-reward mapping
+├── segment_summary.csv                     # ✅ Output: Segment characteristics
+├── traveltide_presentation_chart.png       # ✅ Output: Growth chart for slides
+├── investment_vs_revenue_chart.png         # ✅ Output: ROI visualization
+├── requirements.txt                        # ✅ Python dependencies
+├── README.md                               # ✅ This documentation
+├── executive_summary.md                    # ✅ Business summary
+└── presentation_slides.md                  # ✅ Slide content (5-8 min talk)
 ```
 
 ## 🔄 Methodology
