@@ -343,29 +343,29 @@ Git
 
 ### Installation Steps
 
-<span style="color:lightgrey">bash</span>v
+`bash`
 
-*# Clone repository* 
+*# `Clone repository`* 
 
-git <span style="color:blue">This text is blue</span>  clone https://github.com/traveltide/customer-segmentation.git 
+git clone https://github.com/traveltide/customer-segmentation.git 
 
 cd customer-segmentation
 
-*# Create virtual environment* 
+*# `Create virtual environment`* 
 
 python -m venv venv
 
  source venv/bin/activate # On Windows: venv\Scripts\activate
 
 
-*# Install dependencies* pip install -r requirements.txt
+*# `Install dependencies`* pip install -r requirements.txt
 
 
-*# Set up environment variables* 
+*# `Set up environment variables`* 
 
 cp config/.env.example config/.env 
 
-*# Edit config/.env with your database credentials*
+*# `Edit config/.env with your database credentials`*
 
 
 *# Run the analysis* 
