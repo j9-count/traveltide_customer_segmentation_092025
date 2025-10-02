@@ -64,31 +64,18 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 traveltide_segmentation/
 
 ├── segmentation_engine.py                 # ✅ Complete analysis pipeline
-
 ├── data_quality.py                               # ✅ Enhanced data quality & preprocessing
-
 ├── utils.py                                            # ✅ Helper functions & utilities
-
 ├── run_analysis.py                              # ✅ Main execution script
-
 ├── config/
-
 │   ├── database_config.py                  # ✅ Database settings
-
 │   ├── model_config.py                      # ✅ ML parameters
-
 │   └── __init__.py                               # ✅ Module init
-
 ├── tests/
-
 │   ├── test_segmentation.py               # ✅ Unit tests
-
 │   ├── test_features.py                       # ✅ Feature tests
-
 │   ├── conftest.py                              # ✅ Test config
-
 │   └── __init__.py                             # ✅ Module init
-
 ├── data/                                             # 📁 Auto-generated outputs
 
 │   ├── customer_rewards_assignment.csv
