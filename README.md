@@ -235,6 +235,15 @@ TravelTide_Segmentation_Project/
 ## 🎁 Personalized Rewards Strategy
 
 
+| Segment | Assigned Rewards | Strategic Rationale |
+|---------|------------------|---------------------|
+| Premium Frequent | Free hotel night, No cancellation fees, Exclusive discounts | Flexibility and convenience |
+| Deal-Seeking | Exclusive discounts, Free checked bag, No cancellation fees | Cost savings and value |
+| Luxury Occasional | Free hotel meal, Free hotel night, Exclusive discounts | Quality enhancements |
+| Budget-Conscious | Free hotel meal, Exclusive discounts, Free checked bag | Multiple value-adds |
+
+---
+
 
 
 
