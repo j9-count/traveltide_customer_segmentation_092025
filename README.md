@@ -332,12 +332,12 @@ traveltide_segmentation/
 
 ### Prerequisites
 bash
+
+Python 3.8+ 
 <br>
-Python 3.8+ <br>
-
-PostgreSQL client <br>
-
-Git <br>
+PostgreSQL client 
+<br>
+Git 
 
 
 
