@@ -331,7 +331,7 @@ traveltide_segmentation/
 ## 🔧 Installation & Setup
 
 ### Prerequisites
-bash
+`bash`
 
 Python 3.8+ 
 <br>
