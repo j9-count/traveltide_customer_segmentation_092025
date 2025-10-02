@@ -172,19 +172,29 @@ traveltide_segmentation/
 
 *  Prefer full-service options with convenience features
 
-Budget Frequent Travelers (35%)
+**2. Budget Frequent Travelers**     (35%)
 
-Cost-conscious but loyal customers
-Average spend: $800-1,500 per year
-Price-sensitive with high booking frequency
-High-Value Occasional Travelers (20%)
-Premium customers with lower frequency
-Average spend: $3,000+ per trip
-Quality-focused, prefer luxury options
-Budget Occasional Travelers (20%)
-Price-sensitive infrequent bookers
-Average spend: $600-1,000 per trip
-Require motivation for increased engagement
+* Cost-conscious but loyal customers
+
+* Average spend: $800-1,500 per year
+
+* Price-sensitive with high booking frequency
+
+**3. High-Value Occasional Travelers**     (20%)
+   
+* Premium customers with lower frequency
+
+* Average spend: $3,000+ per trip
+
+* Quality-focused, prefer luxury options
+
+**4. Budget Occasional Travelers**   (20%)
+   
+* Price-sensitive infrequent bookers
+
+* Average spend: $600-1,000 per trip
+
+* Require motivation for increased engagement
 
 
 
