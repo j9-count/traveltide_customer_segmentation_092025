@@ -345,13 +345,13 @@ Git
 
 `bash`
 
-*# `Clone repository`* 
+*`#Clone repository`* 
 
 git clone https://github.com/j9-count/traveltide_customer_segmentation_092025/blob/main/README.md
 
 cd customer-segmentation
 
-*# `Create virtual environment`* 
+*`#Create virtual environment`* 
 
 python -m venv venv
 
