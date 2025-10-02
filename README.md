@@ -60,7 +60,9 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 ## 📂 Project Structure: 
 
+
 traveltide_segmentation/
+
 ├── segmentation_engine.py                 # ✅ Complete analysis pipeline
 
 ├── data_quality.py                               # ✅ Enhanced data quality & preprocessing
