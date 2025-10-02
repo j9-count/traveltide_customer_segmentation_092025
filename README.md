@@ -4,15 +4,14 @@
 
 ## 🎯  Project Overview
 
-This project implements a comprehensive customer segmentation analysis for TravelTide, an e-booking platform in the online travel industry. The goal is to design and execute a personalized rewards program that increases customer retention and encourages reward program sign-ups.
+This project implements a comprehensive customer segmentation analysis for TravelTide, an e-booking platform in the online travel industry. Using machine learning clustering algorithms, the analysis  identifies distinct customer segments and designs personalized rewards programs to  increase customer  retention, boost  booking frequency, and encourage reward program sign-ups .
 
-### Business Objective
+**Analysis Scope**: 5,722 active customers (January 2023 - September 2025)
 
-Design a data-driven rewards program for customers who:
+ **Methodology**: ML-powered segmentation with behavioral, demographic, and RFM analysis
 
-* Signed up from January 2023 onwards
-* Have more than 7 booking sessions
-* Are likely to engage with personalized rewards
+**Outcome**: 4 customer segments with tailored reward strategies projecting 296% ROI
+
 
 ## 📊 Dataset Description
 
@@ -20,38 +19,37 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 ### Tables Overview
 
-* **users** (Demographics): User profiles, demographics, and account information
+* **users** (Demographics): 7,500+ user profiles with demographic and account information
 
-* **sessions** (Behavioral): Browsing sessions, bookings, and engagement metrics
+* **sessions** (Behavioral): 50,000+ booking sessions with engagement metrics
 
-* **flights** (Transactional): Flight booking details and spending patterns
+* **flights** (Transactional): 15,000+ flight bookings with spending patterns
 
-* **hotels** (Transactional): Hotel booking details and preferences
+* **hotels** (Transactional): 12,000+ hotel bookings with preference data
 
+#### Cohort Criteria:
 
-### Key Metrics
+* Sign-up date: January 2023 onwards
 
-* Total users in cohort: 7,500+ active customers
+* Minimum activity: 7+ booking sessions
 
-* Session range: January 2023 - September 2025
+* Result: 5,722 eligible customers analyzed  
 
-* Geographic coverage: Global customer base
-
-* Booking types: Flights, hotels, and combined packages
 
 
 ## 🛠 Technical Architecture
 
+**Platform**: Google Colab (Jupyter Notebook) 
+<br>
+**Language**: Python 3.10+
+<br>
+**Key Libraries**:
 
-### Core Technologies
+* **Pandas, NumPy**: Data manipulation and analysis
 
-* **Python 3.8**: Primary development language
-
-* **PostgreSQL**: Database management
-
-* **Scikit-learn**: Machine learning and clustering
-
-* **Pandas/NumPy**: Data manipulation and analysis
+* **psycopg2, SQLAlchemy**: Databas
+  
+* **Scikit-learn**: Machine learning and clustering - K-Means, Gaussian Mixture, Hierarchical, DBSCAN
 
 * **Plotly**: Interactive visualizations
 
