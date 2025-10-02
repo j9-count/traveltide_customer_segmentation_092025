@@ -417,7 +417,7 @@ rewards = results['reward_assignments']
 
 ### Custom Segment Analysis
 
-```python
+python
 <br>
 *`#Load specific user cohort`*
 <br>
@@ -434,5 +434,13 @@ custom_cohort = segmentation.get_cohort(
 <br>
 custom_results = segmentation.segment_customers(custom_cohort)
 
+
+```python
+# Load specific user cohort
+custom_cohort = segmentation.get_cohort(
+    start_date='2023-06-01',
+    min_sessions=10,
+    countries=['US', 'CA', 'UK']
+)
 
 
