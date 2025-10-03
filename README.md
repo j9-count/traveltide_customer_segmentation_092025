@@ -74,7 +74,7 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
    
 * Go to Google Colab
 
-* Upload TravelTide_Segmentation.ipynb with shared link:
+* Upload TravelTide_Customer_Segmentation_Analysis.ipynb with shared link: https://colab.research.google.com/drive/1n-Bad82nEnXbruiOsCl08FyKYmRfrJC1#scrollTo=dIhyI3-kGJNC
   
 ### 2. Run All Cells Sequentially:
 
