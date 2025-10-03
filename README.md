@@ -98,7 +98,7 @@ Cell 15: Generate business recommendations
 
 Cell 16: Save results and display summary
 
-Cell 17-18: Generate presentation charts (optional)
+Cell 19-20: Generate presentation charts (optional)
 
 
 3. **Download Results:**
@@ -132,7 +132,7 @@ TravelTide_Segmentation_Project/
 ├── requirements.txt                        # ✅ Python dependencies
 ├── README.md                               # ✅ This documentation
 ├── executive_summary.md                    # ✅ Business summary
-└── presentation_slides.md                  # ✅ Slide content (5-8 min talk)
+└── presentation_slides.md                  # ✅ Slide content 
 ```
 
 ---
