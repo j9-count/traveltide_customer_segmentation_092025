@@ -11,7 +11,7 @@ This project implements a comprehensive customer segmentation analysis for Trave
 
  **Methodology**: ML-powered segmentation with behavioral, demographic, and RFM analysis
 
-**Outcome**: 4 customer segments with tailored reward strategies projecting 296% ROI
+**Outcome**: 4 customer segments with tailored reward strategies projecting 296% ROI 🚀
 
 ---
 
