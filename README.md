@@ -7,7 +7,7 @@
 This project implements a comprehensive customer segmentation analysis for TravelTide, an e-booking platform in the online travel industry. Using machine learning clustering algorithms, the analysis  identifies distinct customer segments and designs personalized rewards programs to  increase customer  retention, boost  booking frequency, and encourage reward program sign-ups.
 
 
-**Analysis Scope**: 5,722 active customers (January 2023 - September 2025)
+**Analysis Scope**: 5,149 active customers (January 2023 - September 2025)
 
  **Methodology**: ML-powered segmentation with behavioral, demographic, and RFM analysis
 
@@ -35,7 +35,7 @@ The analysis uses TravelTide's PostgreSQL database with four main tables:
 
 * Minimum activity: 7+ booking sessions
 
-* Result: 5,722 eligible customers analyzed  
+* Result: 5,149 eligible customers analyzed  
 
 ---
 
@@ -190,7 +190,7 @@ TravelTide_Segmentation_Project/
 * Davies-Bouldin Index (cluster similarity)
 
 * Business interpretability
-#### Best Model: K-Means with 4 clusters (Silhouette Score: 0.72)
+#### Best Model: K-Means with 4 clusters (Silhouette Score: 0.72) **❌**
 
 ---
 
@@ -199,35 +199,41 @@ TravelTide_Segmentation_Project/
 
 ### Customer Segments Identified
 
-**1. Premium Frequent Flyers (25% - 1,431 customers)**
+**1. High-Value Occasional Travelers (67.6% - 3,480 customers)**
    
-* Average spend: $2,500/year (~$167/booking)
+* Average spend: $1,062/year 
 
-* Booking frequency: 15+ sessions/year
+* Booking frequency: 2 sessions/year
+
+* Return Flight Rate: 96.0%
 
 * Characteristics: Value convenience and flexibility
 
-**2. Deal-Seeking Regulars (35% - 2,003 customers)**
+**2. Budget Frequent Travelers (16.3% - 839 customers)**
    
-* Average spend: $1,200/year (~$100/booking)
+* Average spend: $1,002/year 
 
-* Booking frequency: 12+ sessions/year
+* Booking frequency: 2 sessions/year
+
+* Return Flight Rate: 96.0%  
 
 * Characteristics: Price-conscious but loyal
 
-**3. Luxury Occasional Travelers (20% - 1,144 customers)**
+**3. Budget Occasional Travelers (9.6% - 493 customers)**
    
-* Average spend: $3,000/trip
+* Average spend: $0 
 
-* Booking frequency: 5-8 sessions/year
+* Booking frequency: 0 sessions/year
 
 * Characteristics: Quality-focused for special occasions
 
-**4. Budget-Conscious Explorers (20% - 1,144 customers)**
+**4. High-Value Frequent Travelers (6.5% - 337 customers)**
    
-* Average spend: $800/trip
+* Average spend: $1 051  
 
-* Booking frequency: 5-7 sessions/year
+* Booking frequency: 3 sessions/year
+
+* Return Flight Rate: 97.0%
 
 * Characteristics: Need engagement incentives
 
